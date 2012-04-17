@@ -10,15 +10,11 @@ fail() {
 [ -e "~/.vim" ] && fail "~/.vim already exists"
 [ -e "~/.vimrc" ] && fail "~/.vimrc already exists"
 
-cd vimrc
-
 git submodule init
 git submodule update
 
-cd ..
-
-ln -s ~/.vimrc vimrc
-ln -s ~/.vim vim
+ln -s `pwd`/vimrc ~/.vimrc
+ln -s `pwd`/vim ~/.vim
 
 echo "Done installing .vim configuration files"
 
