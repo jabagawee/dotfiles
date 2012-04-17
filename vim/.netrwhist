@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/srv/www/clearvueoptometry.com/html/upload'
+let g:netrw_dirhist_2='/etc/lighttpd/conf-enabled'
+let g:netrw_dirhist_3='/srv/www/jabagawee.com/html/hackercup/r1/tests'
+let g:netrw_dirhist_4='/srv/www/hackception.com/code/CALendar/templates/CALendar'
+let g:netrw_dirhist_5='/srv/www/hackception.com/code/CALendar'
+let g:netrw_dirhist_6='/srv/www/hackception.com/code/CALendar/templates/CALendar'
+let g:netrw_dirhist_7='/cygdrive/c/Users/andrew/Code/LiteroticaAPI/literoticaAPI'
+let g:netrw_dirhist_8='/cygdrive/d/Dropbox/Ren'Py/Hill of Swords/.git'
