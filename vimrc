@@ -154,7 +154,6 @@ set nomodeline                  " disable mode lines (security measure)
 set ttyfast                     " always use a fast terminal
 
 au FocusLost * :wa
-au BufWritePost *.py call Flake8()
 
 " Tame the quickfix window (open/close using ,f)
 " I have no effing clue how this works
@@ -390,7 +389,7 @@ if has("autocmd")
         autocmd filetype python imap <buffer> <S-F5> <Esc>:w<CR>:!ipython %<CR>
 
         " Run a quick static syntax check every time we save a Python file
-        autocmd BufWritePost *.py call Flake8()
+        " autocmd BufWritePost *.py call Flake8()
     augroup end " }}}
 
     augroup ruby_files "{{{
