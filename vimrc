@@ -60,8 +60,6 @@ set smarttab                    " insert tabs on the start of a line
                                 " according to shiftwidth, not tabstop
 set scrolloff=4                 " stay 4 lines off the edges when
                                 " scrolling
-set virtualedit=all             " allow the cursor to go in to
-                                " "invalid" places
 set hlsearch                    " highlight search terms
 set incsearch                   " show search matches as you type
 set gdefault                    " search/replace "globally" by default
