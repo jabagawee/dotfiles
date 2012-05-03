@@ -289,6 +289,9 @@ nnoremap <leader>a :Ack<Space>
 " Reselect text that was just pasted with ,v
 nnoremap <leader>v V`]
 
+" Shift-Tab is a godsend
+imap <S-Tab> <BS>
+
 " Conflict markers {{{
 " highlight conflict markers
 match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
