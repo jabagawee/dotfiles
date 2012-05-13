@@ -3,6 +3,7 @@
     co = checkout
     st = status
     cm = commit
+    amend = 'commit --amend'
     unstage = 'reset HEAD --'
     last = 'log -1 HEAD'
     visual = "!gitk"
