@@ -1,0 +1,23 @@
+[aliases]
+    co = checkout
+    st = status
+    cm = commit
+    unstage = 'reset HEAD --'
+    last = 'log -1 HEAD'
+    visual = "!gitk"
+[core]
+    autocrlf = input
+    editor = vim
+[color]
+    ui = true
+[commit]
+    template = $HOME/.git_template
+[diff]
+    external = ./git_diff_wrapper
+[pager]
+    diff = 
+[user]
+	name = Andrew Szeto
+	email = andrew@jabagawee.com
+[github]
+	user = jabagawee
