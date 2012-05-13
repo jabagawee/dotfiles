@@ -18,5 +18,15 @@ ln -s `pwd`/vim ~/.vim
 
 echo "Done installing .vim configuration files"
 
-# TODO: .git configuration
+# Begin .git configuration
+
+[ -e "~/.gitconfig" ] && fail "~/.gitconfig already exists"
+[ -e "~/.git_template" ] && fail "~/.git_template already exists"
+[ -e "~/.git_diff_wrapper" ] && fail "~/.git_diff_wrapper already exists"
+
+ln -s `pwd`/gitconfig ~/.gitconfig
+ln -s `pwd`/git_template ~/.git_template
+ln -s `pwd`/git_diff_wrapper ~/.git_diff_wrapper
+chmod +x ~/.git_diff_wrapper
+
 # TODO: .ssh configuration
