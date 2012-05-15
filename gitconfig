@@ -23,3 +23,5 @@
 	email = andrew@jabagawee.com
 [github]
 	user = jabagawee
+[alias]
+	st = status

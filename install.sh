@@ -20,9 +20,9 @@ echo "Done installing .vim configuration files"
 
 # Begin .git configuration
 
-[ -e "~/.gitconfig" ] && fail "~/.gitconfig already exists"
-[ -e "~/.git_template" ] && fail "~/.git_template already exists"
-[ -e "~/.git_diff_wrapper" ] && fail "~/.git_diff_wrapper already exists"
+[ -f "~/.gitconfig" ] && fail "~/.gitconfig already exists"
+[ -f "~/.git_template" ] && fail "~/.git_template already exists"
+[ -f "~/.git_diff_wrapper" ] && fail "~/.git_diff_wrapper already exists"
 
 ln -s `pwd`/gitconfig ~/.gitconfig
 ln -s `pwd`/git_template ~/.git_template
