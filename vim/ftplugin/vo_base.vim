@@ -291,7 +291,7 @@ endfunction
 "}}}2
 " MyFoldText() {{{2
 " Create string used for folded text blocks
-function MyFoldText()
+function! MyFoldText()
 	let l:MySpaces = MakeSpaces(&sw)
 	let l:line = getline(v:foldstart)
 	let l:bodyTextFlag=0
