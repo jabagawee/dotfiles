@@ -13,9 +13,9 @@
 [color]
     ui = true
 [commit]
-    template = $HOME/.git_template
+    template = /home/andrew/.git_template
 [diff]
-    external = ./git_diff_wrapper
+    external = /home/andrew/.git_diff_wrapper
 [pager]
     diff = 
 [user]
