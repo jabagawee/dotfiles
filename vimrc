@@ -34,7 +34,7 @@ filetype plugin indent on       " enable detection, plugins,
 let mapleader=","
 
 set t_Co=256
-colorscheme mustang
+colorscheme desert
 
 " Editing behaviour {{{
 set showmode                    " always show mode
