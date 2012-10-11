@@ -5,7 +5,7 @@
     lg = log --graph --pretty=format:'%Cred%h%Creset - %s %Cblue(%cr) %Cgreen<%an>%C(yellow)%d%Creset'
     st = status
     amend = 'commit --amend'
-    unstage = 'reset HEAD'
+    unstage = 'reset HEAD --'
     last = 'log -1 HEAD'
     visual = "!gitk"
 [core]
