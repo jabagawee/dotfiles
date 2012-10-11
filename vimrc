@@ -30,6 +30,8 @@ call pathogen#runtime_append_all_bundles()
 filetype plugin indent on       " enable detection, plugins,
                                 " and indenting in one step
 
+nmap <F8> :TagbarToggle<CR>
+
 " Change the mapleader from \ to ,
 let mapleader=","
 
