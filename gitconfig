@@ -1,10 +1,11 @@
-[aliases]
+[alias]
     br = branch
-    co = checkout
-    st = status
     cm = commit
+    co = checkout
+    lg = log --graph --pretty=format:'%Cred%h%Creset - %s %Cblue(%cr) %Cgreen<%an>%C(yellow)%d%Creset'
+    st = status
     amend = 'commit --amend'
-    unstage = 'reset HEAD --'
+    unstage = 'reset HEAD'
     last = 'log -1 HEAD'
     visual = "!gitk"
 [core]
@@ -23,5 +24,3 @@
 	email = andrew@jabagawee.com
 [github]
 	user = jabagawee
-[alias]
-	st = status
