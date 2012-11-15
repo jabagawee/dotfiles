@@ -36,6 +36,8 @@ let mapleader=","
 nmap <F8> :TagbarToggle<CR>
 map <leader>td <Plug>TaskList
 
+let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
+
 set t_Co=256
 colorscheme desert
 
