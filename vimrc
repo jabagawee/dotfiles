@@ -89,7 +89,8 @@ nnoremap <C-y> 2<C-y>
 " Folding rules {{{
 set foldenable                  " enable folding
 set foldcolumn=2                " add a fold column
-set foldmethod=marker           " detect triple-{ style fold markers
+set foldmethod=indent           " i work mainly in python anyways
+set foldlevel = 99              " if it ever gets this bad... D:
 set foldlevelstart=0            " start out with everything folded
 set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
                                 " which commands trigger auto-unfold
