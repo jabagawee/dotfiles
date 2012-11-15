@@ -30,10 +30,11 @@ call pathogen#runtime_append_all_bundles()
 filetype plugin indent on       " enable detection, plugins,
                                 " and indenting in one step
 
-nmap <F8> :TagbarToggle<CR>
-
 " Change the mapleader from \ to ,
 let mapleader=","
+
+nmap <F8> :TagbarToggle<CR>
+map <leader>td <Plug>TaskList
 
 set t_Co=256
 colorscheme desert
@@ -90,7 +91,7 @@ nnoremap <C-y> 2<C-y>
 set foldenable                  " enable folding
 set foldcolumn=2                " add a fold column
 set foldmethod=indent           " i work mainly in python anyways
-set foldlevel = 99              " if it ever gets this bad... D:
+set foldlevel=99              " if it ever gets this bad... D:
 set foldlevelstart=0            " start out with everything folded
 set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
                                 " which commands trigger auto-unfold
