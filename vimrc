@@ -94,7 +94,7 @@ set foldenable                  " enable folding
 set foldcolumn=2                " add a fold column
 set foldmethod=indent           " i work mainly in python anyways
 set foldlevel=99              " if it ever gets this bad... D:
-set foldlevelstart=0            " start out with everything folded
+set foldlevelstart=99            " start out with everything opened
 set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
                                 " which commands trigger auto-unfold
 function! MyFoldText()
