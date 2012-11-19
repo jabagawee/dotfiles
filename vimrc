@@ -262,7 +262,6 @@ nmap <leader>z :%s#\<<C-r>=expand("<cword>")<CR>\>#
 " Quickly get out of insert mode without your fingers having to leave the
 " home row (either use 'jj' or 'jk')
 inoremap jj <Esc>
-inoremap jk <Esc>
 
 " Quick alignment of text
 nmap <leader>al :left<CR>
