@@ -39,7 +39,8 @@ map <leader>td <Plug>TaskList
 let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 
 set t_Co=256
-colorscheme desert
+set background=dark
+colorscheme solarized
 
 " Editing behaviour {{{
 set showmode                    " always show mode
