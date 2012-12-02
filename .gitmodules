@@ -7,9 +7,6 @@
 [submodule "vim/bundle/tasklist"]
 	path = vim/bundle/tasklist
 	url = https://github.com/vim-scripts/TaskList.vim.git
-[submodule "vim/bundle/pydiction"]
-	path = vim/bundle/pydiction
-	url = git://github.com/vim-scripts/Pydiction.git
 [submodule "vim/bundle/minibufexpl"]
 	path = vim/bundle/minibufexpl
 	url = https://github.com/sontek/minibufexpl.vim.git
